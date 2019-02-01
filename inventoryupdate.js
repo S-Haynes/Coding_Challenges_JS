@@ -21,7 +21,6 @@ function updateInventory(arr1, arr2) {
       for (let i = 0; i < arr2.length; i++) {
         if (subArr2[1] === subArr1[i]) {
           subArr1[0] = subArr1[0] + subArr2[0];
-          subArr1[1] = subArr2[1];
         }
       }
     });
