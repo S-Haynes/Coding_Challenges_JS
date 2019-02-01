@@ -11,8 +11,8 @@ function sym(args) {
   arr.map(subArr => {
     for (let i = 0; i < subArr.length; i++) {
       if (
-        (currentArr.indexOf(subArr[i]) === -1) &
-        (i === subArr.indexOf(subArr[i]))
+        currentArr.indexOf(subArr[i]) === -1 &&
+        i === subArr.indexOf(subArr[i])
       ) {
         currentArr.push(subArr[i]);
       } else if (
